@@ -20,7 +20,7 @@ export interface AskResponse {
   retrieved_chunks?: RetrievedChunk[];
 }
 
-const API_BASE_URL = import.meta.env.VITE_RAG_API_URL ?? "";
+const API_BASE_URL = (import.meta.env["VITE_RAG_API_URL"] as string | undefined) ?? "";
 
 export const EXAMPLE_QUESTIONS = [
   "What is self-help?",
