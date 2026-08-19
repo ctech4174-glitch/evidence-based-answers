@@ -147,7 +147,7 @@
 @theme inline {
   --font-sans: "Source Sans 3", ui-sans-serif, system-ui, sans-serif;
   --font-serif: "Source Serif 4", Georgia, serif;
-  --shadow-panel: var(--shadow-panel);
+  
 }
 
 @layer base {
